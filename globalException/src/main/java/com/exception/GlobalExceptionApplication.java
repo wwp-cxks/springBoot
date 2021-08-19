@@ -1,0 +1,16 @@
+package com.exception;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+/**
+ * @author cxks
+ */
+@SpringBootApplication
+public class GlobalExceptionApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(GlobalExceptionApplication.class, args);
+    }
+
+}
